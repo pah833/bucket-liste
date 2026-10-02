@@ -1,0 +1,86 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: blueviolet;
+}
+
+.grand-pah {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.tite {
+    margin-bottom: 10px;
+    margin-left: 450px;
+    color: white;
+}
+
+
+
+.parent {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: flex-start;
+    
+}
+
+.enfant {
+    width: 400px;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+
+    
+}
+
+.enfant input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.enfant button {
+    display: block;
+    padding: 10px ;
+    cursor: pointer;
+    width: 100%;
+    background-color: cornflowerblue;
+    border-radius: 15px;
+    border: none;
+
+}
+
+
+#listeProjets {
+    height: 150px;
+    overflow-y: scroll;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+
+#listeReves {
+    height: 150px;
+    overflow-y: scroll;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+
+@media (max-width:768px) {
+    .parent{
+        flex-direction:column;
+        margin-left: 18px;
+    }
+
+    .tite{
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
