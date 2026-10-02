@@ -72,7 +72,7 @@ body {
     margin-top: 30px;
 }
 
-@media (max-width:768px) {
+@media (max-width:480px) {
     .parent{
         flex-direction:column;
         margin-left: 18px;
